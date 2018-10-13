@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header",
   props: {
     title: String
   },
   data() {
     return {
       show: false,
-      name: 'Scott'
+      name: "Scott"
     };
   }
 };
@@ -27,6 +27,12 @@ header {
 }
 h1 {
   margin: 0;
+  color: white !important;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }
 
 /* name-enter -> name-enter-to */
