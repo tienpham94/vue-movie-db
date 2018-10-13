@@ -14,11 +14,18 @@
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
     "@vue/cli-service": "^3.0.0-beta.6",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
     "presets": [
       "@vue/app"
+    ],
+    "plugins": [
+      "syntax-async-functions",
+      "transform-async-to-generator"
     ]
   },
   "eslintConfig": {
