@@ -1,4 +1,7 @@
-# movie
+# Vue MovieDB
+
+![Screenshot](img.png)
+
 
 ## Project setup
 ```
